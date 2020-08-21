@@ -7,7 +7,7 @@
     "phase": "3",
     "deployLab":true,
     "collegeName": "IITB",
-    "baseUrl": "http://vlabs.ac.in",
+    "baseUrl": "http://dldg-iitb.vlabs.ac.in",
     "introduction": "Welcome to Digital Logic Design using Gates Lab",
     "experiments": [
     		{
