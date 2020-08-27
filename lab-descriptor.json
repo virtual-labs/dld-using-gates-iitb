@@ -51,5 +51,5 @@
     "description": "The syllabi of this lab aligns to the following universities in India.",
     "universities": ["SPPU", "AKTU"]
   },
-  "version": "v1.0.1"
+  "version": "v1.1.0"
 }
