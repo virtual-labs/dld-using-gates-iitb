@@ -1,57 +1,55 @@
 {
-    "broadArea": {
-        "name": "Electronics and Communication Engineering",
-        "link": "https://www.vlab.co.in/broad-area-electronics-and-communications"
+  "broadArea": {
+    "name": "Electronics and Communication Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electronics-and-communications"
+  },
+  "lab": "Digital Logic Design using Gates",
+  "phase": 3,
+  "collegeName": "IITB",
+  "baseUrl": "dldg-iitb.vlabs.ac.in",
+  "introduction": "Welcome to Digital Logic Design using Gates Lab",
+  "experiments": [
+    {
+      "name": "Design of multiplexer circuit using gates",
+      "short-name": "multiplexer-cirucuit-gates",
+      "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-multiplexer-circuit-using-gates-pvgcoet",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "lab": "Digital Logic Design using Gates",
-    "phase": "3",
-    "deployLab":true,
-    "collegeName": "IITB",
-    "baseUrl": "http://dldg-iitb.vlabs.ac.in",
-    "introduction": "Welcome to Digital Logic Design using Gates Lab",
-    "experiments": [
-    		{
-	        "name": "Design of multiplexer circuit using gates",
-		"short-name": "multiplexer-cirucuit-gates",
-		"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-multiplexer-circuit-using-gates-pvgcoet",
- 	        "tag": "v1.0.0",
-         	"deploy": true
-	    }, {
-	        "name": "Multiplexer using Universal logic gates",
-		"short-name": "multiplexer-universal-logic-gates",
-		"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-multiplexer-using-universal-logic-gates-pvgcoet",
- 	        "tag": "v1.0.0",
-         	"deploy": true
-	    }, {
-	        "name": "Demultiplexer using basic logic gates",
-		"short-name": "demultiplexer-basic-logic-gates",
-		"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-demultiplexer-using-basic-logic-gates-pvgcoet",
- 	        "tag": "v1.0.0",
-         	"deploy": true
-	    }, {
-	        "name": "Demultiplexer using Universal logic gates",
-		"short-name": "demultiplexer-universal-logic-gates",
-		"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-demultiplexer-using-universal-logic-gates-pvgcoet",
- 	        "tag": "v1.0.0",
-         	"deploy": true
-	    }, {
-	        "name": "Application of Multiplexer",
-		"short-name": "application-multiplexer",
-		"repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-multiplexer-application-pvgcoet",
- 	        "tag": "v1.0.0",
-         	"deploy": true
-}
-    ],
-    "targetAudience": {
-        "UG": ["B.Tech, BE"],
-        "PG": ["M.Tech, ME"]
+    {
+      "name": "Multiplexer using Universal logic gates",
+      "short-name": "multiplexer-universal-logic-gates",
+      "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-multiplexer-using-universal-logic-gates-pvgcoet",
+      "tag": "v1.0.0",
+      "deploy": true
     },
-    "objective": "This lab is focussed on building multiplexer and demultiplexer combinational circuits using basic logic gates and universal gates. By doing so, the student will be able to compare the gate level involved in the circuit and also the number of gates required for the design. The students will also understand how to scale up the 2:1 mux to a 4:1 mux. Once the student understands this design approach he would be able to build higher order multiplexers.",
-    "courseAlignment": {
-        "description": "The syllabi of this lab aligns to the following universities in India.",
-        "universities": [
-			"SPPU", 
-			"AKTU"
-	]
+    {
+      "name": "Demultiplexer using basic logic gates",
+      "short-name": "demultiplexer-basic-logic-gates",
+      "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-demultiplexer-using-basic-logic-gates-pvgcoet",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Demultiplexer using Universal logic gates",
+      "short-name": "demultiplexer-universal-logic-gates",
+      "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-demultiplexer-using-universal-logic-gates-pvgcoet",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Application of Multiplexer",
+      "short-name": "application-multiplexer",
+      "repo": "http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-logic-design-using-gates-pvg/vlabdigitizers-multiplexer-application-pvgcoet",
+      "tag": "v1.0.0",
+      "deploy": true
     }
+  ],
+  "targetAudience": { "UG": ["B.Tech, BE"], "PG": ["M.Tech, ME"] },
+  "objective": "This lab is focussed on building multiplexer and demultiplexer combinational circuits using basic logic gates and universal gates. By doing so, the student will be able to compare the gate level involved in the circuit and also the number of gates required for the design. The students will also understand how to scale up the 2:1 mux to a 4:1 mux. Once the student understands this design approach he would be able to build higher order multiplexers.",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "universities": ["SPPU", "AKTU"]
+  },
+  "version": "v1.0.1"
 }
